@@ -12,7 +12,7 @@ public class Main {
 
     public static void exibirRecursivamente(int[][] matriz, int i, int j) {
         // Caso base: quando todas as linhas forem percorridas
-        if (i >= matriz.length) {
+        if (i == matriz.length) {
             return;
         }
 
